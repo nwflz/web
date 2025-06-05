@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(55, 55, 55);
+    font-family: Arial;
+}
+
+.header {
+    width: auto;
+    height: fit-content;
+    text-align: left;
+    font-family: monospace;
+    color: white;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.logo {
+    margin: 2vw;
+    width: 25vw;
+    position: absolute;
+}
+
+.banner {
+    width: 100%;
+}
+
+.navigator {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-image: linear-gradient(0deg, rgb(44, 44, 44), rgb(66, 66, 66));
+    overflow: hidden;
+}
+
+.navigator a {
+    float: right;
+    display: block;
+    color: rgb(160, 160, 160);
+    text-align: center;
+    padding: 0.6vh 1.8vw;
+    text-decoration: none;
+    font-size: 1.8vh;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.navigator a:hover {
+    color: white;
+}
+
+.titlecard {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 21px;
+    margin-top: 2vh;
+    padding: 2vh;
+}
+
+.container {
+    color: white;
+    font-family: Arial;
+    padding: 2vh 4vw;
+}
+
+.container p {
+    font-size: 16px;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container a {
+    color: rgb(216, 40, 40);
+    text-decoration: none;
+}
+
+.container ul {
+    padding-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
